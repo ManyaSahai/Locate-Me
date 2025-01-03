@@ -25,14 +25,14 @@ function Navbar() {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li><a href="/" className="text-white">Home</a></li>
+            <li><a href="/" className="text-black">Home</a></li> 
             <li>
-              <a className="text-white">Admin Panel</a>
+              <a className="text-black">Admin Panel</a> 
               <ul className="p-2">
-                <li><a href="/admin/manage-profiles" className="text-white">Manage Profiles</a></li>
+                <li><a href="/admin/manage-profiles" className="text-black">Manage Profiles</a></li>
               </ul>
             </li>
-            <li><a href="/about" className="text-white">About</a></li>
+            <li><a href="/about" className="text-black">About</a></li> 
           </ul>
         </div>
         <a href="/" className="btn btn-ghost text-xl text-white">LocateMe</a>
@@ -61,4 +61,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
 
